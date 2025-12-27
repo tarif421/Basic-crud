@@ -11,8 +11,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// const uri =
-//   "mongodb+srv://smartDBUser:ETMSM2pHt5eTBvHt@cluster0.9aos02c.mongodb.net/?appName=Cluster0";
+
 
 const uri = `mongodb+srv://${process.env.DV_USER}:${process.env.DB_PASS}@cluster0.9aos02c.mongodb.net/?appName=Cluster0`;
 
